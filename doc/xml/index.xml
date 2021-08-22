@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="admin__login_8h" kind="file"><name>admin_login.h</name>
+    <member refid="admin__login_8h_1a31501d901b9672203866bf1d0cba887b" kind="function"><name>admin_login</name></member>
+  </compound>
+  <compound refid="attempt__count_8h" kind="file"><name>attempt_count.h</name>
+    <member refid="attempt__count_8h_1a46c556a397e7465b4478c1f27549e1a6" kind="function"><name>attempt_count</name></member>
+  </compound>
+  <compound refid="candidate__details_8h" kind="file"><name>candidate_details.h</name>
+    <member refid="candidate__details_8h_1af22403cb087c4ab77b0c3cf31504e4e8" kind="function"><name>candidate_details</name></member>
+  </compound>
+  <compound refid="cast__vote_8h" kind="file"><name>cast_vote.h</name>
+    <member refid="cast__vote_8h_1adb4a076c2492b1572a98c8d3529f84fd" kind="function"><name>cast_vote</name></member>
+  </compound>
+  <compound refid="display__count_8h" kind="file"><name>display_count.h</name>
+    <member refid="display__count_8h_1afc1195281e3f529173ac6a50d1a91c9a" kind="function"><name>display_count</name></member>
+  </compound>
+  <compound refid="function_8h" kind="file"><name>function.h</name>
+    <member refid="function_8h_1a1515985a2f144089838af029c524853a" kind="define"><name>itoa</name></member>
+  </compound>
+  <compound refid="get__field_8h" kind="file"><name>get_field.h</name>
+    <member refid="get__field_8h_1a83fa4dd89935ed1f044f0a3dec2677d8" kind="function"><name>get_field</name></member>
+  </compound>
+  <compound refid="get__file__column__size_8h" kind="file"><name>get_file_column_size.h</name>
+    <member refid="get__file__column__size_8h_1ab15c363136467ad0bcce2057e7e474ce" kind="function"><name>get_file_column_size</name></member>
+  </compound>
+  <compound refid="int__to__string_8h" kind="file"><name>int_to_string.h</name>
+    <member refid="int__to__string_8h_1ac900d34d6fb269034529deb81bca61a8" kind="function"><name>int_to_string</name></member>
+  </compound>
+  <compound refid="replace__char_8h" kind="file"><name>replace_char.h</name>
+    <member refid="replace__char_8h_1ade6f4eb5a96fe2c6e2f266118750c416" kind="function"><name>replace_char</name></member>
+  </compound>
+  <compound refid="secondary__authentication_8h" kind="file"><name>secondary_authentication.h</name>
+    <member refid="secondary__authentication_8h_1afc4379a1614547a547c73179468e71e6" kind="function"><name>secondary_authentication</name></member>
+  </compound>
+  <compound refid="user__details_8h" kind="file"><name>user_details.h</name>
+    <member refid="user__details_8h_1a389def8b8697fba993e4bf12964b11ef" kind="function"><name>user_details</name></member>
+  </compound>
+  <compound refid="user__login_8h" kind="file"><name>user_login.h</name>
+    <member refid="user__login_8h_1a053fc10d1ca1e1d1efc9590585b95864" kind="function"><name>user_login</name></member>
+  </compound>
+</doxygenindex>

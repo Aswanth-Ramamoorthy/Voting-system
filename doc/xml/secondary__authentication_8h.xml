@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="secondary__authentication_8h" kind="file" language="C++">
+    <compoundname>secondary_authentication.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="secondary__authentication_8h_1afc4379a1614547a547c73179468e71e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int secondary_authentication</definition>
+        <argsstring>(char *name)</argsstring>
+        <name>secondary_authentication</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>This function acts as a two-factor authentication for the user to cast vote. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function displays the available ID proofs the user possesses and when</para>
+<para>the user selects the ID proof and passes the ID number as the input.</para>
+<para>It compares the given input with the existing data in the file.</para>
+<para>Once they match the user gets authenticated.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes &quot;name&quot; as the input parameter which is the logged in username</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function calls the user_details function and displays the user information.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns 0 on unsuccessful authentication and 1 for successful authentication </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="secondary_authentication.h" line="30" column="12" declfile="secondary_authentication.h" declline="30" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of two step authentication for casting vote. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Aswanth <ulink url="mailto:Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca">Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_SECONDARY_AUTHENTICATION_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SECONDARY_AUTHENTICATION_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="secondary__authentication_8h_1afc4379a1614547a547c73179468e71e6" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="secondary__authentication_8h_1afc4379a1614547a547c73179468e71e6" kindref="member">secondary_authentication</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="secondary_authentication.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+.TH "secondary_authentication.h" 3 "Tue Apr 21 2020" "Electronic_Polling_System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+secondary_authentication.h \- Implementation of two step authentication for casting vote\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBsecondary_authentication\fP (char *name)"
+.br
+.RI "This function acts as a two-factor authentication for the user to cast vote\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of two step authentication for casting vote\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Aswanth Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca 
+.RE
+.PP
+
+.SH "Function Documentation"
+.PP 
+.SS "int secondary_authentication (char * name)"
+
+.PP
+This function acts as a two-factor authentication for the user to cast vote\&. This function displays the available ID proofs the user possesses and when
+.PP
+the user selects the ID proof and passes the ID number as the input\&.
+.PP
+It compares the given input with the existing data in the file\&.
+.PP
+Once they match the user gets authenticated\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIThe\fP function takes 'name' as the input parameter which is the logged in username
+.br
+\fIThe\fP function calls the user_details function and displays the user information\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns 0 on unsuccessful authentication and 1 for successful authentication 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Electronic_Polling_System from the source code\&.

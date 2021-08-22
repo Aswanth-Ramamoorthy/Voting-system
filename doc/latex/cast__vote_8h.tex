@@ -1,0 +1,43 @@
+\hypertarget{cast__vote_8h}{}\doxysection{cast\+\_\+vote.\+h File Reference}
+\label{cast__vote_8h}\index{cast\_vote.h@{cast\_vote.h}}
+
+
+Implementation of cast\+\_\+vote function to cast vote for the preferred candidate.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{cast__vote_8h_adb4a076c2492b1572a98c8d3529f84fd}{cast\+\_\+vote}} (char $\ast$province, char $\ast$username)
+\begin{DoxyCompactList}\small\item\em The function to cast vote for the preferred candidate. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of cast\+\_\+vote function to cast vote for the preferred candidate. 
+
+\begin{DoxyAuthor}{Author}
+Soma Sundaram \href{mailto:Ravindran-somasundaramravindra@cmail.carleton.ca}{\texttt{ Ravindran-\/somasundaramravindra@cmail.\+carleton.\+ca}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{cast__vote_8h_adb4a076c2492b1572a98c8d3529f84fd}\label{cast__vote_8h_adb4a076c2492b1572a98c8d3529f84fd}} 
+\index{cast\_vote.h@{cast\_vote.h}!cast\_vote@{cast\_vote}}
+\index{cast\_vote@{cast\_vote}!cast\_vote.h@{cast\_vote.h}}
+\doxysubsubsection{\texorpdfstring{cast\_vote()}{cast\_vote()}}
+{\footnotesize\ttfamily int cast\+\_\+vote (\begin{DoxyParamCaption}\item[{char $\ast$}]{province,  }\item[{char $\ast$}]{username }\end{DoxyParamCaption})}
+
+
+
+The function to cast vote for the preferred candidate. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em the} & function takes “province” as input parameter and gets \char`\"{}candidate\+\_\+id\char`\"{} as input from the user input terminal\\
+\hline
+\mbox{\texttt{ out}}  & {\em The} & function calls \char`\"{}attemp\+\_\+count\char`\"{} function and displays a message to the user\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return 0 when vote is casted and return 1 if \char`\"{}candidate\+\_\+id\char`\"{} id invalid to cast vote. 
+\end{DoxyReturn}

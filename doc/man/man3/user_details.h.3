@@ -1,0 +1,54 @@
+.TH "user_details.h" 3 "Tue Apr 21 2020" "Electronic_Polling_System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+user_details.h \- Implementation of displaying the user details\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBuser_details\fP (char *name)"
+.br
+.RI "This function is to display the user details from the file\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of displaying the user details\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Aswanth Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca 
+.RE
+.PP
+
+.SH "Function Documentation"
+.PP 
+.SS "int user_details (char * name)"
+
+.PP
+This function is to display the user details from the file\&. This function displays the available user information such as First name ,Last name, Age,Phone Number ,postal code and Province\&.
+.PP
+It compares the given input(i\&.e Username) with the existing data in the file\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIThe\fP function takes the User name as the input parameter\&.
+.br
+\fIThe\fP function calls the candidate_details function and displays the candidates in the user's province\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns 0 if the username matches with the one in file, Returns 1 if name is not valid in file 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Electronic_Polling_System from the source code\&.

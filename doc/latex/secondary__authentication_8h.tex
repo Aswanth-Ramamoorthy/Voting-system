@@ -1,0 +1,51 @@
+\hypertarget{secondary__authentication_8h}{}\doxysection{secondary\+\_\+authentication.\+h File Reference}
+\label{secondary__authentication_8h}\index{secondary\_authentication.h@{secondary\_authentication.h}}
+
+
+Implementation of two step authentication for casting vote.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{secondary__authentication_8h_afc4379a1614547a547c73179468e71e6}{secondary\+\_\+authentication}} (char $\ast$name)
+\begin{DoxyCompactList}\small\item\em This function acts as a two-\/factor authentication for the user to cast vote. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of two step authentication for casting vote. 
+
+\begin{DoxyAuthor}{Author}
+Aswanth \href{mailto:Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca}{\texttt{ Ramamoorthy-\/aswanthramamoorthy@cmail.\+carleton.\+ca}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{secondary__authentication_8h_afc4379a1614547a547c73179468e71e6}\label{secondary__authentication_8h_afc4379a1614547a547c73179468e71e6}} 
+\index{secondary\_authentication.h@{secondary\_authentication.h}!secondary\_authentication@{secondary\_authentication}}
+\index{secondary\_authentication@{secondary\_authentication}!secondary\_authentication.h@{secondary\_authentication.h}}
+\doxysubsubsection{\texorpdfstring{secondary\_authentication()}{secondary\_authentication()}}
+{\footnotesize\ttfamily int secondary\+\_\+authentication (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+
+
+This function acts as a two-\/factor authentication for the user to cast vote. 
+
+This function displays the available ID proofs the user possesses and when
+
+the user selects the ID proof and passes the ID number as the input.
+
+It compares the given input with the existing data in the file.
+
+Once they match the user gets authenticated.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes \char`\"{}name\char`\"{} as the input parameter which is the logged in username\\
+\hline
+\mbox{\texttt{ out}}  & {\em The} & function calls the user\+\_\+details function and displays the user information.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 on unsuccessful authentication and 1 for successful authentication 
+\end{DoxyReturn}

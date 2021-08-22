@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="user__details_8h" kind="file" language="C++">
+    <compoundname>user_details.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>user_details.h</label>
+        <link refid="user__details_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="user__details_8h_1a389def8b8697fba993e4bf12964b11ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int user_details</definition>
+        <argsstring>(char *name)</argsstring>
+        <name>user_details</name>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>This function is to display the user details from the file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function displays the available user information such as First name ,Last name, Age,Phone Number ,postal code and Province.</para>
+<para>It compares the given input(i.e Username) with the existing data in the file.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes the User name as the input parameter.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function calls the candidate_details function and displays the candidates in the user&apos;s province.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns 0 if the username matches with the one in file, Returns 1 if name is not valid in file </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="user_details.h" line="29" column="12" declfile="user_details.h" declline="29" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of displaying the user details. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Aswanth <ulink url="mailto:Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca">Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_USER_DETAILS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USER_DETAILS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="user__details_8h_1a389def8b8697fba993e4bf12964b11ef" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="user__details_8h_1a389def8b8697fba993e4bf12964b11ef" kindref="member">user_details</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="user_details.h"/>
+  </compounddef>
+</doxygen>

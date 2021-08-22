@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="candidate__details_8h" kind="file" language="C++">
+    <compoundname>candidate_details.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+      <node id="1">
+        <label>candidate_details.h</label>
+        <link refid="candidate__details_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="candidate__details_8h_1af22403cb087c4ab77b0c3cf31504e4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int candidate_details</definition>
+        <argsstring>(char *province, char *username)</argsstring>
+        <name>candidate_details</name>
+        <param>
+          <type>char *</type>
+          <declname>province</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>The function displays a list of candidates present in the file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes “province” as input parameter.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function displays candidate details in the logged in user&apos;s province</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return 0 when entered province is valid else return 1 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="candidate_details.h" line="24" column="12" declfile="candidate_details.h" declline="24" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of candidate_details function to display the candidates contesting in a particular province. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Priyanga Soundararajan - <ulink url="mailto:priyangasoundararaja@cmail.carleton.ca">priyangasoundararaja@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#ifndef<sp/>_CANDIDATE_DETAILS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_CANDIDATE_DETAILS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="candidate__details_8h_1af22403cb087c4ab77b0c3cf31504e4e8" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="candidate__details_8h_1af22403cb087c4ab77b0c3cf31504e4e8" kindref="member">candidate_details</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>province,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>username);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="candidate_details.h"/>
+  </compounddef>
+</doxygen>

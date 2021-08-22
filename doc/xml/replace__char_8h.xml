@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="replace__char_8h" kind="file" language="C++">
+    <compoundname>replace_char.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+      <node id="1">
+        <label>replace_char.h</label>
+        <link refid="replace__char_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="replace__char_8h_1ade6f4eb5a96fe2c6e2f266118750c416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* replace_char</definition>
+        <argsstring>(char *str, char find, char replace)</argsstring>
+        <name>replace_char</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>find</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>replace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="replace_char.h" line="12" column="13" declfile="replace_char.h" declline="12" declcolumn="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of replacing a character with other. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Priyanga <ulink url="mailto:Soundararajan-priyangasoundararaja@cmail.carleton.ca">Soundararajan-priyangasoundararaja@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_REPLACE_CHAR_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_REPLACE_CHAR_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="replace__char_8h_1ade6f4eb5a96fe2c6e2f266118750c416" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="replace__char_8h_1ade6f4eb5a96fe2c6e2f266118750c416" kindref="member">replace_char</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>find,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>replace);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="replace_char.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+.TH "user_login.h" 3 "Tue Apr 21 2020" "Electronic_Polling_System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+user_login.h \- Implementation of user login login function with password encryption\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBuser_login\fP ()"
+.br
+.RI "This function acts as a Authentication for the user to cast vote\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of user login login function with password encryption\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Vignesh Balaji - vigneshbalaji@cmail.carleton.ca 
+.RE
+.PP
+
+.SH "Function Documentation"
+.PP 
+.SS "int user_login ()"
+
+.PP
+This function acts as a Authentication for the user to cast vote\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIThe\fP function does not take any input parameter but takes user_name and password
+.RE
+.PP
+as input from the user in input terminal
+.PP
+and compares it with the data in the file\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIThis\fP function calls secondary_authentication on successful user login
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns 0 on successful authentication and returns 1 on unsuccessful authentication 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Electronic_Polling_System from the source code\&.

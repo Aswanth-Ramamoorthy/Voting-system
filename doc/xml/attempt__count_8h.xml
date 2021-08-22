@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="attempt__count_8h" kind="file" language="C++">
+    <compoundname>attempt_count.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="attempt__count_8h_1a46c556a397e7465b4478c1f27549e1a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int attempt_count</definition>
+        <argsstring>(char *username)</argsstring>
+        <name>attempt_count</name>
+        <param>
+          <type>char *</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>This function to prevent the user who already casted vote. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function records every attempt made by an user to vote. After one successful vote(attempt&gt;=1) the user is restricted further voting .</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">It</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>takes the username as the input parameter.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>This function has no return value.(This function is used to make necessary changes to the files) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="attempt_count.h" line="27" column="13" declfile="attempt_count.h" declline="27" declcolumn="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of attempt_count function to prevent the user from casting duplicate votes. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Vignesh Balaji - <ulink url="mailto:vigneshbalaji@cmail.carleton.ca">vigneshbalaji@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_ATTEMPT_COUNT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ATTEMPT_COUNT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="attempt__count_8h_1a46c556a397e7465b4478c1f27549e1a6" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="attempt__count_8h_1a46c556a397e7465b4478c1f27549e1a6" kindref="member">attempt_count</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>username);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="attempt_count.h"/>
+  </compounddef>
+</doxygen>

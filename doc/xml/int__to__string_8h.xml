@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="int__to__string_8h" kind="file" language="C++">
+    <compoundname>int_to_string.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+      <node id="1">
+        <label>int_to_string.h</label>
+        <link refid="int__to__string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="int__to__string_8h_1ac900d34d6fb269034529deb81bca61a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* int_to_string</definition>
+        <argsstring>(int num, char *str)</argsstring>
+        <name>int_to_string</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="int_to_string.h" line="14" column="13" declfile="int_to_string.h" declline="14" declcolumn="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of intToString function to convert int to string. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Priyanga Soundararajan - <ulink url="mailto:priyangasoundararaja@cmail.carleton.ca">priyangasoundararaja@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#ifndef<sp/>_INT_TO_STRING_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_INT_TO_STRING_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="int__to__string_8h_1ac900d34d6fb269034529deb81bca61a8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="int__to__string_8h_1ac900d34d6fb269034529deb81bca61a8" kindref="member">int_to_string</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="int_to_string.h"/>
+  </compounddef>
+</doxygen>

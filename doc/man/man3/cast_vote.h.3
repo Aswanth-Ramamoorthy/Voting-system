@@ -1,0 +1,52 @@
+.TH "cast_vote.h" 3 "Tue Apr 21 2020" "Electronic_Polling_System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+cast_vote.h \- Implementation of cast_vote function to cast vote for the preferred candidate\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBcast_vote\fP (char *province, char *username)"
+.br
+.RI "The function to cast vote for the preferred candidate\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of cast_vote function to cast vote for the preferred candidate\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Soma Sundaram Ravindran-somasundaramravindra@cmail.carleton.ca 
+.RE
+.PP
+
+.SH "Function Documentation"
+.PP 
+.SS "int cast_vote (char * province, char * username)"
+
+.PP
+The function to cast vote for the preferred candidate\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIthe\fP function takes “province” as input parameter and gets 'candidate_id' as input from the user input terminal
+.br
+\fIThe\fP function calls 'attemp_count' function and displays a message to the user
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Return 0 when vote is casted and return 1 if 'candidate_id' id invalid to cast vote\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Electronic_Polling_System from the source code\&.

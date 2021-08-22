@@ -1,0 +1,9 @@
+
+1)Criteria Passed with correct username and password, Expected Output: 0, Output: 0 .
+2)Criteria Passed with provided username & password, Expected Output: 0, Output: 0 .
+2)Criteria Passed with valid Candidate_Id, Expected Output: 0, Output: 0 .
+1)Criteria Passed with valid filename, Expected Output: 1, Output: 1 .
+1)Criteria Passed with valid province ; Expected Output : 0, Output :  0 .
+2)Criteria Passed with matching ID-Type,ID-number and name_on_ID,Expected Output: 1, Output: 1 .
+2)Criteria Passed with correct Username & Password, Expected Output: 1, Output: 1 .
+2)Criteria Passed with correct Username & Password, Expected Output: 1, Output: 1 .

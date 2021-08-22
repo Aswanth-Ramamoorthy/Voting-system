@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="cast__vote_8h" kind="file" language="C++">
+    <compoundname>cast_vote.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>cast_vote.h</label>
+        <link refid="cast__vote_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cast__vote_8h_1adb4a076c2492b1572a98c8d3529f84fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cast_vote</definition>
+        <argsstring>(char *province, char *username)</argsstring>
+        <name>cast_vote</name>
+        <param>
+          <type>char *</type>
+          <declname>province</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+<para>The function to cast vote for the preferred candidate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes “province” as input parameter and gets &quot;candidate_id&quot; as input from the user input terminal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function calls &quot;attemp_count&quot; function and displays a message to the user</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return 0 when vote is casted and return 1 if &quot;candidate_id&quot; id invalid to cast vote. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cast_vote.h" line="23" column="12" declfile="cast_vote.h" declline="23" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of cast_vote function to cast vote for the preferred candidate. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Soma Sundaram <ulink url="mailto:Ravindran-somasundaramravindra@cmail.carleton.ca">Ravindran-somasundaramravindra@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_CAST_VOTE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_CAST_VOTE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="cast__vote_8h_1adb4a076c2492b1572a98c8d3529f84fd" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="cast__vote_8h_1adb4a076c2492b1572a98c8d3529f84fd" kindref="member">cast_vote</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>province,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>username);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="cast_vote.h"/>
+  </compounddef>
+</doxygen>

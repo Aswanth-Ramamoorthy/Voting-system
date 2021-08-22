@@ -1,0 +1,47 @@
+\hypertarget{user__details_8h}{}\doxysection{user\+\_\+details.\+h File Reference}
+\label{user__details_8h}\index{user\_details.h@{user\_details.h}}
+
+
+Implementation of displaying the user details.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{user__details_8h_a389def8b8697fba993e4bf12964b11ef}{user\+\_\+details}} (char $\ast$name)
+\begin{DoxyCompactList}\small\item\em This function is to display the user details from the file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of displaying the user details. 
+
+\begin{DoxyAuthor}{Author}
+Aswanth \href{mailto:Ramamoorthy-aswanthramamoorthy@cmail.carleton.ca}{\texttt{ Ramamoorthy-\/aswanthramamoorthy@cmail.\+carleton.\+ca}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{user__details_8h_a389def8b8697fba993e4bf12964b11ef}\label{user__details_8h_a389def8b8697fba993e4bf12964b11ef}} 
+\index{user\_details.h@{user\_details.h}!user\_details@{user\_details}}
+\index{user\_details@{user\_details}!user\_details.h@{user\_details.h}}
+\doxysubsubsection{\texorpdfstring{user\_details()}{user\_details()}}
+{\footnotesize\ttfamily int user\+\_\+details (\begin{DoxyParamCaption}\item[{char $\ast$}]{name }\end{DoxyParamCaption})}
+
+
+
+This function is to display the user details from the file. 
+
+This function displays the available user information such as First name ,Last name, Age,Phone Number ,postal code and Province.
+
+It compares the given input(i.\+e Username) with the existing data in the file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function takes the User name as the input parameter.\\
+\hline
+\mbox{\texttt{ out}}  & {\em The} & function calls the candidate\+\_\+details function and displays the candidates in the user\textquotesingle{}s province.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 if the username matches with the one in file, Returns 1 if name is not valid in file 
+\end{DoxyReturn}

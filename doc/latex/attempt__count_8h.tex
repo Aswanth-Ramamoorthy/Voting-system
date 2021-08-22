@@ -1,0 +1,43 @@
+\hypertarget{attempt__count_8h}{}\doxysection{attempt\+\_\+count.\+h File Reference}
+\label{attempt__count_8h}\index{attempt\_count.h@{attempt\_count.h}}
+
+
+Implementation of attempt\+\_\+count function to prevent the user from casting duplicate votes.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{attempt__count_8h_a46c556a397e7465b4478c1f27549e1a6}{attempt\+\_\+count}} (char $\ast$username)
+\begin{DoxyCompactList}\small\item\em This function to prevent the user who already casted vote. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of attempt\+\_\+count function to prevent the user from casting duplicate votes. 
+
+\begin{DoxyAuthor}{Author}
+Vignesh Balaji -\/ \href{mailto:vigneshbalaji@cmail.carleton.ca}{\texttt{ vigneshbalaji@cmail.\+carleton.\+ca}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{attempt__count_8h_a46c556a397e7465b4478c1f27549e1a6}\label{attempt__count_8h_a46c556a397e7465b4478c1f27549e1a6}} 
+\index{attempt\_count.h@{attempt\_count.h}!attempt\_count@{attempt\_count}}
+\index{attempt\_count@{attempt\_count}!attempt\_count.h@{attempt\_count.h}}
+\doxysubsubsection{\texorpdfstring{attempt\_count()}{attempt\_count()}}
+{\footnotesize\ttfamily int attempt\+\_\+count (\begin{DoxyParamCaption}\item[{char $\ast$}]{username }\end{DoxyParamCaption})}
+
+
+
+This function to prevent the user who already casted vote. 
+
+This function records every attempt made by an user to vote. After one successful vote(attempt$>$=1) the user is restricted further voting .
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em It} & takes the username as the input parameter.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function has no return value.(This function is used to make necessary changes to the files) 
+\end{DoxyReturn}

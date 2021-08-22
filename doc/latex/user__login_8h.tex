@@ -1,0 +1,50 @@
+\hypertarget{user__login_8h}{}\doxysection{user\+\_\+login.\+h File Reference}
+\label{user__login_8h}\index{user\_login.h@{user\_login.h}}
+
+
+Implementation of user login login function with password encryption.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{user__login_8h_a053fc10d1ca1e1d1efc9590585b95864}{user\+\_\+login}} ()
+\begin{DoxyCompactList}\small\item\em This function acts as a Authentication for the user to cast vote. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of user login login function with password encryption. 
+
+\begin{DoxyAuthor}{Author}
+Vignesh Balaji -\/ \href{mailto:vigneshbalaji@cmail.carleton.ca}{\texttt{ vigneshbalaji@cmail.\+carleton.\+ca}} 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{user__login_8h_a053fc10d1ca1e1d1efc9590585b95864}\label{user__login_8h_a053fc10d1ca1e1d1efc9590585b95864}} 
+\index{user\_login.h@{user\_login.h}!user\_login@{user\_login}}
+\index{user\_login@{user\_login}!user\_login.h@{user\_login.h}}
+\doxysubsubsection{\texorpdfstring{user\_login()}{user\_login()}}
+{\footnotesize\ttfamily int user\+\_\+login (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function acts as a Authentication for the user to cast vote. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em The} & function does not take any input parameter but takes user\+\_\+name and password\\
+\hline
+\end{DoxyParams}
+as input from the user in input terminal
+
+and compares it with the data in the file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em This} & function calls secondary\+\_\+authentication on successful user login\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 0 on successful authentication and returns 1 on unsuccessful authentication 
+\end{DoxyReturn}

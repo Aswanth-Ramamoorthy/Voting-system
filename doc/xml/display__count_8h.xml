@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="display__count_8h" kind="file" language="C++">
+    <compoundname>display_count.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="display__count_8h_1afc1195281e3f529173ac6a50d1a91c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int display_count</definition>
+        <argsstring>()</argsstring>
+        <name>display_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function displays a final cont of the votes present in the file. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function takes “filename” as input parameter.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function displays the &quot;vote_count.csv&quot; file as the output.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return 0 when file opens and return 1 when filename is invalid. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="display_count.h" line="24" column="12" declfile="display_count.h" declline="24" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of display_count function to display the final count of the votes casted. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Priyanga Soundararajan - <ulink url="mailto:priyangasoundararaja@cmail.carleton.ca">priyangasoundararaja@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#ifndef<sp/>_DISPLAY_COUNT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_DISPLAY_COUNT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="display__count_8h_1afc1195281e3f529173ac6a50d1a91c9a" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="display__count_8h_1afc1195281e3f529173ac6a50d1a91c9a" kindref="member">display_count</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="display_count.h"/>
+  </compounddef>
+</doxygen>

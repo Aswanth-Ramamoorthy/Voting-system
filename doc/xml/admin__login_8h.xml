@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="admin__login_8h" kind="file" language="C++">
+    <compoundname>admin_login.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+      <node id="1">
+        <label>admin_login.h</label>
+        <link refid="admin__login_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="admin__login_8h_1a31501d901b9672203866bf1d0cba887b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int admin_login</definition>
+        <argsstring>()</argsstring>
+        <name>admin_login</name>
+        <briefdescription>
+<para>This function is to authenticate admin into the system. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function compares the input(i.e Admin-ID and PAssword) given by the Admin.when the comparison gets successful the output will display as Welcome.Login success!</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">It</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>takes the Admin-ID, Password and File name as the input parameter.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return 0 on successful login and 1 if login failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="admin_login.h" line="26" column="12" declfile="admin_login.h" declline="26" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of admin login function for access to the system. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>vignesh balaji - <ulink url="mailto:vigneshbalaji@cmail.carleton.ca">vigneshbalaji@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_ADMIN_LOGIN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ADMIN_LOGIN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="admin__login_8h_1a31501d901b9672203866bf1d0cba887b" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="admin__login_8h_1a31501d901b9672203866bf1d0cba887b" kindref="member">admin_login</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="admin_login.h"/>
+  </compounddef>
+</doxygen>

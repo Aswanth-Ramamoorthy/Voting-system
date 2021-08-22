@@ -1,0 +1,50 @@
+.TH "attempt_count.h" 3 "Tue Apr 21 2020" "Electronic_Polling_System" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+attempt_count.h \- Implementation of attempt_count function to prevent the user from casting duplicate votes\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBattempt_count\fP (char *username)"
+.br
+.RI "This function to prevent the user who already casted vote\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of attempt_count function to prevent the user from casting duplicate votes\&. 
+
+
+.PP
+\fBAuthor\fP
+.RS 4
+Vignesh Balaji - vigneshbalaji@cmail.carleton.ca 
+.RE
+.PP
+
+.SH "Function Documentation"
+.PP 
+.SS "int attempt_count (char * username)"
+
+.PP
+This function to prevent the user who already casted vote\&. This function records every attempt made by an user to vote\&. After one successful vote(attempt>=1) the user is restricted further voting \&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIIt\fP takes the username as the input parameter\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+This function has no return value\&.(This function is used to make necessary changes to the files) 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Electronic_Polling_System from the source code\&.

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="user__login_8h" kind="file" language="C++">
+    <compoundname>user_login.h</compoundname>
+    <includedby refid="function_8h" local="yes">function.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+      </node>
+      <node id="1">
+        <label>user_login.h</label>
+        <link refid="user__login_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="user__login_8h_1a053fc10d1ca1e1d1efc9590585b95864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int user_login</definition>
+        <argsstring>()</argsstring>
+        <name>user_login</name>
+        <briefdescription>
+<para>This function acts as a Authentication for the user to cast vote. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function does not take any input parameter but takes user_name and password</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+as input from the user in input terminal</para>
+<para>and compares it with the data in the file.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">This</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function calls secondary_authentication on successful user login</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns 0 on successful authentication and returns 1 on unsuccessful authentication </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="user_login.h" line="26" column="12" declfile="user_login.h" declline="26" declcolumn="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of user login login function with password encryption. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Vignesh Balaji - <ulink url="mailto:vigneshbalaji@cmail.carleton.ca">vigneshbalaji@cmail.carleton.ca</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>_USER_LOGIN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USER_LOGIN_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="user__login_8h_1a053fc10d1ca1e1d1efc9590585b95864" refkind="member"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="user__login_8h_1a053fc10d1ca1e1d1efc9590585b95864" kindref="member">user_login</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="user_login.h"/>
+  </compounddef>
+</doxygen>

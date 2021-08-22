@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="function_8h" kind="file" language="C++">
+    <compoundname>function.h</compoundname>
+    <includes refid="admin__login_8h" local="yes">admin_login.h</includes>
+    <includes refid="user__login_8h" local="yes">user_login.h</includes>
+    <includes refid="user__details_8h" local="yes">user_details.h</includes>
+    <includes refid="candidate__details_8h" local="yes">candidate_details.h</includes>
+    <includes refid="replace__char_8h" local="yes">replace_char.h</includes>
+    <includes refid="get__field_8h" local="yes">get_field.h</includes>
+    <includes refid="get__file__column__size_8h" local="yes">get_file_column_size.h</includes>
+    <includes refid="int__to__string_8h" local="yes">int_to_string.h</includes>
+    <includes refid="cast__vote_8h" local="yes">cast_vote.h</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>cast_vote.h</label>
+        <link refid="cast__vote_8h"/>
+      </node>
+      <node id="4">
+        <label>user_details.h</label>
+        <link refid="user__details_8h"/>
+      </node>
+      <node id="7">
+        <label>get_field.h</label>
+        <link refid="get__field_8h"/>
+      </node>
+      <node id="1">
+        <label>function.h</label>
+        <link refid="function_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>candidate_details.h</label>
+        <link refid="candidate__details_8h"/>
+      </node>
+      <node id="2">
+        <label>admin_login.h</label>
+        <link refid="admin__login_8h"/>
+      </node>
+      <node id="3">
+        <label>user_login.h</label>
+        <link refid="user__login_8h"/>
+      </node>
+      <node id="9">
+        <label>int_to_string.h</label>
+        <link refid="int__to__string_8h"/>
+      </node>
+      <node id="8">
+        <label>get_file_column_size.h</label>
+        <link refid="get__file__column__size_8h"/>
+      </node>
+      <node id="6">
+        <label>replace_char.h</label>
+        <link refid="replace__char_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="function_8h_1a1515985a2f144089838af029c524853a" prot="public" static="no">
+        <name>itoa</name>
+        <param><defname>x</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="function.h" line="23" column="11" bodyfile="function.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simply contains all the headers of the different function to make main.c file cleaner. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#ifndef<sp/>__FUNCTION_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__FUNCTION_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="admin__login_8h" kindref="compound">admin_login.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="user__login_8h" kindref="compound">user_login.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="user__details_8h" kindref="compound">user_details.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="candidate__details_8h" kindref="compound">candidate_details.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="replace__char_8h" kindref="compound">replace_char.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="get__field_8h" kindref="compound">get_field.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="get__file__column__size_8h" kindref="compound">get_file_column_size.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="int__to__string_8h" kindref="compound">int_to_string.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cast__vote_8h" kindref="compound">cast_vote.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>itoa(x)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="function_8h_1a1515985a2f144089838af029c524853a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="function.h"/>
+  </compounddef>
+</doxygen>
