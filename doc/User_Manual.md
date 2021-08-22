@@ -4,7 +4,7 @@ Electronic Polling machine is a software that allows users to vote with high aut
 
 # Installation
 
-Please refer to [INSTALL.md](https://github.com/Epolling/Electronic_Polling_system/blob/dev/INSTALL.md) file for installation instructions.
+Please refer to [INSTALL.md](https://github.com/Aswanth-Ramamoorthy/Voting-system/blob/dev/INSTALL.md) file for installation instructions.
 
 # Usage
 

@@ -37,6 +37,4 @@ The program flow for the application is as follows:
   - The function in display_count.c gets input from admin and displays the votes secured by candidates in each province.
  
 
-# Documentation
 
-Complete documentation of the source code can be found [here](https://github.com/Epolling/Electronic_Polling_system/tree/dev/doc/html/index.html).
